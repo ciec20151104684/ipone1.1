@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39068021E7639A1006CC1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39068011E7639A1006CC1EA /* AppDelegate.swift */; };
+		F39068041E7639A1006CC1EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39068031E7639A1006CC1EA /* ViewController.swift */; };
+		F39068071E7639A1006CC1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39068051E7639A1006CC1EA /* Main.storyboard */; };
+		F39068091E7639A1006CC1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39068081E7639A1006CC1EA /* Assets.xcassets */; };
+		F390680C1E7639A1006CC1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F390680A1E7639A1006CC1EA /* LaunchScreen.storyboard */; };
+		F39068171E7639A1006CC1EA /* ipone1_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39068161E7639A1006CC1EA /* ipone1_1Tests.swift */; };
+		F39068221E7639A1006CC1EA /* ipone1_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39068211E7639A1006CC1EA /* ipone1_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39068131E7639A1006CC1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39067F61E7639A1006CC1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39067FD1E7639A1006CC1EA;
+			remoteInfo = ipone1.1;
+		};
+		F390681E1E7639A1006CC1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39067F61E7639A1006CC1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39067FD1E7639A1006CC1EA;
+			remoteInfo = ipone1.1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F39067FE1E7639A1006CC1EA /* ipone1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipone1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39068011E7639A1006CC1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39068031E7639A1006CC1EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39068061E7639A1006CC1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39068081E7639A1006CC1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F390680B1E7639A1006CC1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F390680D1E7639A1006CC1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39068121E7639A1006CC1EA /* ipone1.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipone1.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39068161E7639A1006CC1EA /* ipone1_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipone1_1Tests.swift; sourceTree = "<group>"; };
+		F39068181E7639A1006CC1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F390681D1E7639A1006CC1EA /* ipone1.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipone1.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39068211E7639A1006CC1EA /* ipone1_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipone1_1UITests.swift; sourceTree = "<group>"; };
+		F39068231E7639A1006CC1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39067FB1E7639A1006CC1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F390680F1E7639A1006CC1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F390681A1E7639A1006CC1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39067F51E7639A1006CC1EA = {
+			isa = PBXGroup;
+			children = (
+				F39068001E7639A1006CC1EA /* ipone1.1 */,
+				F39068151E7639A1006CC1EA /* ipone1.1Tests */,
+				F39068201E7639A1006CC1EA /* ipone1.1UITests */,
+				F39067FF1E7639A1006CC1EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39067FF1E7639A1006CC1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39067FE1E7639A1006CC1EA /* ipone1.1.app */,
+				F39068121E7639A1006CC1EA /* ipone1.1Tests.xctest */,
+				F390681D1E7639A1006CC1EA /* ipone1.1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39068001E7639A1006CC1EA /* ipone1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				F39068011E7639A1006CC1EA /* AppDelegate.swift */,
+				F39068031E7639A1006CC1EA /* ViewController.swift */,
+				F39068051E7639A1006CC1EA /* Main.storyboard */,
+				F39068081E7639A1006CC1EA /* Assets.xcassets */,
+				F390680A1E7639A1006CC1EA /* LaunchScreen.storyboard */,
+				F390680D1E7639A1006CC1EA /* Info.plist */,
+			);
+			path = ipone1.1;
+			sourceTree = "<group>";
+		};
+		F39068151E7639A1006CC1EA /* ipone1.1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F39068161E7639A1006CC1EA /* ipone1_1Tests.swift */,
+				F39068181E7639A1006CC1EA /* Info.plist */,
+			);
+			path = ipone1.1Tests;
+			sourceTree = "<group>";
+		};
+		F39068201E7639A1006CC1EA /* ipone1.1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F39068211E7639A1006CC1EA /* ipone1_1UITests.swift */,
+				F39068231E7639A1006CC1EA /* Info.plist */,
+			);
+			path = ipone1.1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39067FD1E7639A1006CC1EA /* ipone1.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39068261E7639A1006CC1EA /* Build configuration list for PBXNativeTarget "ipone1.1" */;
+			buildPhases = (
+				F39067FA1E7639A1006CC1EA /* Sources */,
+				F39067FB1E7639A1006CC1EA /* Frameworks */,
+				F39067FC1E7639A1006CC1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipone1.1;
+			productName = ipone1.1;
+			productReference = F39067FE1E7639A1006CC1EA /* ipone1.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39068111E7639A1006CC1EA /* ipone1.1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39068291E7639A1006CC1EA /* Build configuration list for PBXNativeTarget "ipone1.1Tests" */;
+			buildPhases = (
+				F390680E1E7639A1006CC1EA /* Sources */,
+				F390680F1E7639A1006CC1EA /* Frameworks */,
+				F39068101E7639A1006CC1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39068141E7639A1006CC1EA /* PBXTargetDependency */,
+			);
+			name = ipone1.1Tests;
+			productName = ipone1.1Tests;
+			productReference = F39068121E7639A1006CC1EA /* ipone1.1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F390681C1E7639A1006CC1EA /* ipone1.1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F390682C1E7639A1006CC1EA /* Build configuration list for PBXNativeTarget "ipone1.1UITests" */;
+			buildPhases = (
+				F39068191E7639A1006CC1EA /* Sources */,
+				F390681A1E7639A1006CC1EA /* Frameworks */,
+				F390681B1E7639A1006CC1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F390681F1E7639A1006CC1EA /* PBXTargetDependency */,
+			);
+			name = ipone1.1UITests;
+			productName = ipone1.1UITests;
+			productReference = F390681D1E7639A1006CC1EA /* ipone1.1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39067F61E7639A1006CC1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = s20151104684;
+				TargetAttributes = {
+					F39067FD1E7639A1006CC1EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F39068111E7639A1006CC1EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F39067FD1E7639A1006CC1EA;
+					};
+					F390681C1E7639A1006CC1EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F39067FD1E7639A1006CC1EA;
+					};
+				};
+			};
+			buildConfigurationList = F39067F91E7639A1006CC1EA /* Build configuration list for PBXProject "ipone1.1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39067F51E7639A1006CC1EA;
+			productRefGroup = F39067FF1E7639A1006CC1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39067FD1E7639A1006CC1EA /* ipone1.1 */,
+				F39068111E7639A1006CC1EA /* ipone1.1Tests */,
+				F390681C1E7639A1006CC1EA /* ipone1.1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39067FC1E7639A1006CC1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F390680C1E7639A1006CC1EA /* LaunchScreen.storyboard in Resources */,
+				F39068091E7639A1006CC1EA /* Assets.xcassets in Resources */,
+				F39068071E7639A1006CC1EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39068101E7639A1006CC1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F390681B1E7639A1006CC1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39067FA1E7639A1006CC1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39068041E7639A1006CC1EA /* ViewController.swift in Sources */,
+				F39068021E7639A1006CC1EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F390680E1E7639A1006CC1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39068171E7639A1006CC1EA /* ipone1_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39068191E7639A1006CC1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39068221E7639A1006CC1EA /* ipone1_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39068141E7639A1006CC1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39067FD1E7639A1006CC1EA /* ipone1.1 */;
+			targetProxy = F39068131E7639A1006CC1EA /* PBXContainerItemProxy */;
+		};
+		F390681F1E7639A1006CC1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39067FD1E7639A1006CC1EA /* ipone1.1 */;
+			targetProxy = F390681E1E7639A1006CC1EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39068051E7639A1006CC1EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39068061E7639A1006CC1EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F390680A1E7639A1006CC1EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F390680B1E7639A1006CC1EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39068241E7639A1006CC1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F39068251E7639A1006CC1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39068271E7639A1006CC1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ipone1.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.ipone1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F39068281E7639A1006CC1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ipone1.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.ipone1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F390682A1E7639A1006CC1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ipone1.1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.ipone1-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipone1.1.app/ipone1.1";
+			};
+			name = Debug;
+		};
+		F390682B1E7639A1006CC1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ipone1.1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.ipone1-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipone1.1.app/ipone1.1";
+			};
+			name = Release;
+		};
+		F390682D1E7639A1006CC1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ipone1.1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.ipone1-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ipone1.1;
+			};
+			name = Debug;
+		};
+		F390682E1E7639A1006CC1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ipone1.1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.ipone1-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ipone1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39067F91E7639A1006CC1EA /* Build configuration list for PBXProject "ipone1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39068241E7639A1006CC1EA /* Debug */,
+				F39068251E7639A1006CC1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39068261E7639A1006CC1EA /* Build configuration list for PBXNativeTarget "ipone1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39068271E7639A1006CC1EA /* Debug */,
+				F39068281E7639A1006CC1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F39068291E7639A1006CC1EA /* Build configuration list for PBXNativeTarget "ipone1.1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F390682A1E7639A1006CC1EA /* Debug */,
+				F390682B1E7639A1006CC1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F390682C1E7639A1006CC1EA /* Build configuration list for PBXNativeTarget "ipone1.1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F390682D1E7639A1006CC1EA /* Debug */,
+				F390682E1E7639A1006CC1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39067F61E7639A1006CC1EA /* Project object */;
+}
