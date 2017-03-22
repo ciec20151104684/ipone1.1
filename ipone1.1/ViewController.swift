@@ -97,13 +97,12 @@ class ViewController: UIViewController {
             a1 = input.text!
         }
         
+        
     }
     
     
     @IBAction func suanfa(_ sender: UIButton) {
         let an = sender.currentTitle
-       
-        
         
        if an=="+"||an=="-"||an=="*"||an=="/"
        {
